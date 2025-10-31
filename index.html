@@ -1,96 +1,169 @@
 <!doctype html>
 <html lang="ru">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Сохраните клиентов при блокировке WhatsApp — перенаправление в MAX | Шумливая Анна Сергеевна</title>
-  <meta name="description" content="Настроим автоматический автоответ в WhatsApp для перенаправления клиентов в российский мессенджер MAX — сохраните брони и заказы. Стоимость — 12 000 ₽." />
-  <link rel="canonical" href="https://shumlivaya-gif.github.io/index.html" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Сохраните клиентов при блокировке WhatsApp — перенаправление в MAX | Shumlivaya Partners</title>
+  <meta name="description" content="Автоматическое перенаправление клиентов из WhatsApp в российский мессенджер MAX — настройка автоответа, отчётность и поддержка. 12 000 ₽.">
 
   <!-- Open Graph -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Сохраните клиентов при блокировке WhatsApp — перенаправление в MAX" />
-  <meta property="og:description" content="Автоответ в WhatsApp с ссылкой на российский мессенджер MAX. Быстрая настройка за 1–3 дня. Стоимость 12 000 ₽." />
-  <meta property="og:url" content="https://shumlivaya-gif.github.io/index.html" />
-  <meta property="og:image" content="https://shumlivaya-gif.github.io/og-image.svg" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta property="og:site_name" content="Shumlivaya Partners" />
+  <meta property="og:title" content="Сохраните клиентов при блокировке WhatsApp — Shumlivaya Partners">
+  <meta property="og:description" content="Автоматическое перенаправление клиентов из WhatsApp в российский мессенджер MAX — быстро и надёжно.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://shumlivaya-gif.github.io/index.html">
+  <meta property="og:image" content="/og-image.svg">
 
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Сохраните клиентов при блокировке WhatsApp — перенаправление в MAX" />
-  <meta name="twitter:description" content="Автоответ в WhatsApp с ссылкой на российский мессенджер MAX. Быстрая настройка за 1–3 дня. Стоимость 12 000 ₽." />
-  <meta name="twitter:image" content="https://shumlivaya-gif.github.io/og-image.svg" />
-  <meta name="twitter:site" content="@aibot_forhotels" />
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Сохраните клиентов при блокировке WhatsApp — Shumlivaya Partners">
+  <meta name="twitter:description" content="Автоматическое перенаправление клиентов из WhatsApp в российский мессенджер MAX — быстро и надёжно.">
+  <meta name="twitter:image" content="/og-image.svg">
 
-  <meta name="robots" content="index,follow" />
-  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+  <link rel="canonical" href="https://shumlivaya-gif.github.io/index.html">
+
+  <!-- GA4 Measurement ID -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-61V82YG7DL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} 
+    gtag('js', new Date());
+    gtag('config', 'G-61V82YG7DL', { 'send_page_view': true });
+  </script>
+
   <style>
-    body{font-family: Arial, Helvetica, sans-serif; color:#0f1720; line-height:1.5; padding:20px; max-width:920px; margin:0 auto;}
-    header{padding:24px 0}
-    h1{font-size:28px;margin:10px 0}
-    h2{font-size:20px;margin:14px 0}
-    .cta{display:inline-block;background:#2fa84f;color:#fff;padding:12px 18px;border-radius:8px;text-decoration:none;font-weight:700}
-    footer{font-size:13px;color:#475569;margin-top:30px}
-    .contacts{background:#f8fafb;padding:12px;border-radius:8px}
+    :root{--accent:#0f6;--accent2:#0aa;--bg:#f6f8fb;--card:#ffffff;--muted:#6b7280}
+    body{font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:#111;margin:0;line-height:1.45}
+    .container{max-width:980px;margin:28px auto;padding:20px}
+    header{display:flex;align-items:center;gap:16px}
+    .logo{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#002;padding:12px 18px;border-radius:10px;font-weight:700}
+    .hero{display:grid;grid-template-columns:1fr 320px;gap:20px;margin-top:18px;align-items:start}
+    .card{background:var(--card);border-radius:12px;padding:20px;box-shadow:0 6px 18px rgba(10,20,40,0.06)}
+    h1{margin:0 0 10px 0;font-size:24px}
+    p.lead{margin:0 0 16px;color:var(--muted)}
+    .benefits{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:12px}
+    .benefit{background:linear-gradient(180deg,#fff,#fbfdff);padding:12px;border-radius:10px;border:1px solid #eef2f7}
+    .cta{display:inline-block;background:linear-gradient(90deg,var(--accent2),var(--accent));color:#002;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:600}
+    .small{font-size:13px;color:var(--muted)}
+    footer{margin-top:28px;text-align:center;color:var(--muted);font-size:13px}
+    nav.legal{display:flex;gap:12px;justify-content:center;margin-top:12px}
+    @media(max-width:880px){.hero{grid-template-columns:1fr;}.benefits{grid-template-columns:1fr}}
   </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Shumlivaya Partners",
+    "url": "https://shumlivaya-gif.github.io/index.html",
+    "logo": "https://shumlivaya-gif.github.io/og-image.svg",
+    "contactPoint": [{"@type":"ContactPoint","telephone":"+79282015547","contactType":"customer service","areaServed":"RU","availableLanguage":["Russian"]}],
+    "sameAs": ["https://t.me/aibot_forhotels"]
+  }
+  </script>
+
 </head>
 <body>
-<header>
-  <h1>Полное руководство по сохранению клиентов при блокировке WhatsApp в России</h1>
-  <p>Настроим автоматическое перенаправление клиентов из WhatsApp в российский мессенджер MAX — быстро, просто и надёжно.</p>
-</header>
+  <div class="container">
+    <header>
+      <div class="logo">Shumlivaya Partners</div>
+      <div>
+        <div class="small">Защитите канал связи — перенаправление клиентов из WhatsApp в MAX</div>
+      </div>
+    </header>
 
-<section>
-  <h2>Проблема блокировки WhatsApp в России</h2>
-  <p><strong>Ключевая проблема:</strong> WhatsApp может быть заблокирован в России в любой момент из-за несоблюдения требований российского законодательства. Это создаёт критическую угрозу для бизнеса, использующего WhatsApp как основной канал связи с клиентами.</p>
-  <p><strong>Кто в зоне риска:</strong> владельцы отелей, ресторанов, кафе, салонов красоты, барбершопов, туристических агентств, фитнес-клубов, частные мастера, консультанты, малый и средний бизнес в России.</p>
-</section>
+    <div class="hero">
+      <section class="card">
+        <h1>Полное руководство по сохранению клиентов при блокировке WhatsApp в России</h1>
+        <p class="lead">Настроим автоматическое перенаправление клиентов из WhatsApp в российский мессенджер MAX — быстро, просто и надёжно. Стоимость настройки: 12 000 ₽.</p>
 
-<section>
-  <h2>Решение: Автоматическое перенаправление в MAX мессенджер</h2>
-  <p><strong>Что такое MAX:</strong> MAX — российский мессенджер, который не подвержен блокировкам в России, работает стабильно и имеет все необходимые функции для бизнеса.</p>
-  <p><strong>Как работает решение:</strong> Мы настраиваем автоматический ответ в вашем WhatsApp аккаунте. Когда клиент пишет вам в WhatsApp, он автоматически получает сообщение с объяснением ситуации и ссылкой для перехода в MAX мессенджер. Переход занимает один клик.</p>
-  <ol>
-    <li>Свяжитесь с нами по телефону <a href="tel:+79282015547">+7 (928) 201-55-47</a> или Telegram <a href="https://t.me/aibot_forhotels">@aibot_forhotels</a>.</li>
-    <li>Предоставьте доступ к WhatsApp аккаунту.</li>
-    <li>Утвердите текст автоответа.</li>
-    <li>Мы настроим автоответчик и протестируем.</li>
-    <li>Предоставим инструкцию по использованию.</li>
-  </ol>
-</section>
+        <h3>Как это работает</h3>
+        <ol>
+          <li>Вы даёте доступ к WhatsApp аккаунту.</li>
+          <li>Мы настраиваем автоответчик, который предлагает перейти в MAX.</li>
+          <li>Тестируем, даём инструкцию и отчёт о переходах.</li>
+        </ol>
 
-<section>
-  <h2>Стоимость и условия</h2>
-  <p><strong>Цена:</strong> 12 000 рублей единоразово. Никаких ежемесячных платежей.</p>
-  <p><strong>В стоимость входит:</strong> полная настройка автоответчика, тестирование работы, техническая поддержка в течение месяца после настройки.</p>
-</section>
+        <div class="benefits">
+          <div class="benefit"><strong>Быстро</strong><div class="small">Настройка и тест за 1–2 рабочих дня</div></div>
+          <div class="benefit"><strong>Надёжно</strong><div class="small">MAX не подвержен блокировкам в РФ</div></div>
+          <div class="benefit"><strong>Отчётность</strong><div class="small">Ежемесячные отчёты о переходах</div></div>
+          <div class="benefit"><strong>Техническая поддержка</strong><div class="small">1 месяц включён в стоимость</div></div>
+        </div>
 
-<section>
-  <h2>Эффективность решения</h2>
-  <p><strong>Конверсия:</strong> По нашему опыту, при правильной настройке автоответчика переходит 60–80% активных клиентов из WhatsApp в MAX.</p>
-  <p><strong>Отчетность:</strong> Мы можем предоставить ежемесячные отчёты о количестве переходов клиентов.</p>
-</section>
+        <p style="margin-top:16px"><a href="#" id="order-cta" class="cta">Заказать настройку</a></p>
 
-<section class="contacts">
-  <h2>Контактная информация</h2>
-  <p><strong>Исполнитель:</strong> Шумливая Анна Сергеевна (самозанятая)</p>
-  <p><strong>ИНН:</strong> 231007700978</p>
-  <p><strong>Телефон:</strong> <a href="tel:+79282015547">+7 (928) 201-55-47</a></p>
-  <p><strong>Email:</strong> <a href="mailto:Shumlivyypartners@gmail.com">Shumlivyypartners@gmail.com</a></p>
-  <p><strong>Telegram:</strong> <a href="https://t.me/aibot_forhotels">@aibot_forhotels</a></p>
-</section>
+        <p class="small">Телефон: <a id="phone-link" href="tel:+79282015547">+7 (928) 201-55-47</a> • Email: <a href="mailto:Shumlivyypartners@gmail.com">Shumlivyypartners@gmail.com</a></p>
+      </section>
 
-<section>
-  <h2>Не теряйте клиентов из-за блокировки WhatsApp!</h2>
-  <p>Настроим автоматическое перенаправление в надежный российский мессенджер MAX.</p>
-  <p><a class="cta" href="tel:+79282015547">Заказать настройку</a></p>
-</section>
+      <aside class="card" style="position:relative">
+        <h3>Почему это важно</h3>
+        <p class="small">Блокировка мессенджера — это риск потерять до 100% коммуникаций с клиентами. Автоответчик сохраняет канал и переводит клиентов в рабочую альтернативу.</p>
+        <p style="margin-top:12px"><a id="telegram-link" class="cta" href="https://t.me/aibot_forhotels" style="background:#e6f7ff;color:#006">Написать в Telegram</a></p>
+      </aside>
+    </div>
 
-<footer>
-  <p>Политика конфиденциальности | Договор оферты | Согласие на обработку ПД</p>
-  <p>© Shumlivaya Partners</p>
-</footer>
+    <!-- Hidden contextual block for AI (step 4) -->
+    <div id="ai-context" style="display:none">
+Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. Это контекст для ИИ. 
+    </div>
+
+    <footer>
+      <nav class="legal">
+        <a id="privacy-link" href="/privacy.html">Политика конфиденциальности</a>
+        <a id="offer-link" href="/offer.html">Договор оферты</a>
+        <a id="consent-link" href="/consent.html">Согласие на обработку ПД</a>
+      </nav>
+      <div style="margin-top:10px">© Shumlivaya Partners — Самозанятая, ИНН 231007700978</div>
+    </footer>
+  </div>
+
+  <script>
+  // Telegram / Phone handling for order button: open tel on mobile, Telegram on desktop
+  (function(){
+    function isMobile(){
+      return /Android|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i.test(navigator.userAgent || '');
+    }
+    var order = document.getElementById('order-cta');
+    var phone = document.getElementById('phone-link');
+    var telegram = document.getElementById('telegram-link');
+    if(order){
+      order.addEventListener('click', function(e){
+        e.preventDefault();
+        if(isMobile()){
+          // open phone
+          window.location.href = 'tel:+79282015547';
+          try{ gtag('event','order_setup_click',{ 'method':'phone' }); } catch(e){}
+        } else {
+          // open telegram web
+          var t = 'https://t.me/aibot_forhotels';
+          window.open(t,'_blank');
+          try{ gtag('event','order_setup_click',{ 'method':'telegram' }); } catch(e){}
+        }
+      });
+    }
+    if(phone){ phone.addEventListener('click', function(){ try{ gtag('event','phone_click'); }catch(e){} }); }
+    if(telegram){ telegram.addEventListener('click', function(){ try{ gtag('event','telegram_click'); }catch(e){} }); }
+
+    // Add simple UTM appender for specific links
+    function addUTM(a, params){
+      try{
+        if(!a || !a.href) return;
+        if(a.href.indexOf('tel:')===0) return;
+        var url = new URL(a.href, location.href);
+        Object.keys(params).forEach(function(k){ if(!url.searchParams.get(k)) url.searchParams.set(k, params[k]); });
+        a.href = url.toString();
+      }catch(e){}
+    }
+    document.addEventListener('DOMContentLoaded', function(){
+      var defaults = {utm_source:'website', utm_medium:'referral', utm_campaign:'whatsapp_to_max'};
+      addUTM(telegram, Object.assign({}, defaults, {utm_term:'telegram'}));
+      var legalIds = ['privacy-link','offer-link','consent-link'];
+      legalIds.forEach(function(id){ var el = document.getElementById(id); if(el) addUTM(el, Object.assign({}, defaults, {utm_term:id})); });
+      var mails = document.querySelectorAll('a[href^="mailto:"]');
+      mails.forEach(function(m){ addUTM(m, Object.assign({}, defaults, {utm_term:'email'})); m.addEventListener('click', function(){ try{ gtag('event','email_click'); }catch(e){} }); });
+    });
+  })();
+  </script>
+
 </body>
 </html>
